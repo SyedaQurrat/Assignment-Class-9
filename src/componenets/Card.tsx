@@ -5,10 +5,9 @@ import Image from 'next/image';
 interface CardProps {
   imageSrc: string;
   altText: string;
-  title: string;
 }
 
-const Card: React.FC<CardProps> = ({ imageSrc, altText, title }) => {
+const Card: React.FC<CardProps> = ({ imageSrc, altText, }) => {
   return (
     <div className="border-2 overflow-hidden h-fit box_shadow rounded-lg flex flex-col justify-center items-center text-center text-zinc-600 text-lg font-bold hover:scale-105 transition-all duration-200">
       <div>
@@ -21,9 +20,6 @@ const Card: React.FC<CardProps> = ({ imageSrc, altText, title }) => {
           src={imageSrc}
           style={{ color: 'transparent' }}
         />
-      </div>
-      <div className="px-4 flex justify-center items-center mt-2 h-[70px]">
-        <span className="text-lg md:text-xl lg:text-2xl font-semibold text-sky-800">{title}</span>
       </div>
     </div>
   );

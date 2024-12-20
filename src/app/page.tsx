@@ -14,39 +14,34 @@ const CourseSection: React.FC = () => {
           <Card
             imageSrc="/images/core-img-4.jpg"
             altText="artificial intelligence"
-            title="Artificial Intelligence"
+            
           />
         </div>
         <div className="w-full sm:w-[100%] md:w-[48%]">
           <Card
             imageSrc="/images/core-img-5.jpg"
-            altText="web 3 and metaverse"
-            title="Web 3 and Metaverse"
+            altText="web 3 and metaverse" 
           />
         </div>
       </div>
-
       {/* Second Row */}
       <div className="flex flex-wrap gap-5 mt-10">
         <div className="w-full sm:w-[100%] md:w-[48%] lg:w-[30%]">
           <Card
             imageSrc="/images/core-img-6.jpg"
             altText="cloud-native computing"
-            title="Cloud-Native Computing"
           />
         </div>
         <div className="w-full sm:w-[100%] md:w-[48%] lg:w-[30%]">
           <Card
             imageSrc="/images/core-img-7.jpg"
             altText="ambient computing and IoT"
-            title="Ambient Computing and IoT"
           />
         </div>
         <div className="w-full sm:w-[100%] md:w-[48%] lg:w-[30%]">
           <Card
             imageSrc="/images/core-img-8.jpg"
             altText="genomics and bioinformatics"
-            title="Genomics and Bioinformatics"
           />
         </div>
       </div>
