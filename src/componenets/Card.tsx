@@ -22,14 +22,11 @@ const Card: React.FC<CardProps> = ({ imageSrc, altText, title }) => {
           style={{ color: 'transparent' }}
         />
       </div>
-      <div className="px-4 flex justify-center items-center h-[70px]">
+      <div className="px-4 flex justify-center items-center mt-2 h-[70px]">
         <span className="text-lg md:text-xl lg:text-2xl font-semibold text-sky-800">{title}</span>
       </div>
     </div>
   );
 };
 
-
-
 export default Card;
-
